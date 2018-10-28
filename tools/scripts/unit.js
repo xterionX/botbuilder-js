@@ -15,10 +15,10 @@
 // limitations under the License.
 // 
 
-var fs = require('fs');
-var path = require('path');
+const fs = require('fs');
+const path = require('path');
 
-var args = (process.ARGV || process.argv);
+const args = (process.ARGV || process.argv);
 
 var reporter = 'list';
 var xunitOption = Array.prototype.indexOf.call(args, '-xunit');
